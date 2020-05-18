@@ -1,0 +1,29 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'myStyle/style.css' %}">
+    <title>server is running</title>
+</head>
+
+<body>
+    <div class="body-bg">
+        <div class="tx-box">
+            <div class="tx-one">
+                <h1>
+                    success<i></i>
+                </h1>
+            </div>
+            <div class="tx-two">
+                <h2>welcome your server is up and running</h2>
+                <h3>
+                    you would be automatically redirected if no click <a href="{% url 'websites:home' %}">here</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

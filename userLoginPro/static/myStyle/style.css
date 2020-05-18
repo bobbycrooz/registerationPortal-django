@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-bg {
+    background-color: #94cdcd;
+    color: #000;
+    height: 100vh;
+}
+
+.tx-box {
+    width: 600px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.tx-one {
+    background-color: aliceblue;
+    color: rgb(34, 238, 34);
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tx-two {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #759E9E;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 2px 9px #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links>a {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #94cdcd;
+    color: black;
+    box-shadow: 1px 2px 5px #000;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover {
+    transform: translateY(3px);
+}
+
+.content {
+    padding: 10px;
+}
+
+.form {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 1px 2px 5px #000;
+    margin: 0 auto;
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgb(54, 54, 54);
+}
+
+input[type=submit] {
+    width: 70px;
+    margin-left: 100px;
+}

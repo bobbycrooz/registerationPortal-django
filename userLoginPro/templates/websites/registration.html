@@ -1,0 +1,14 @@
+<!DOCTYPE html> {% extends 'websites/base.html' %} {% block body_block %} {% if registered %}
+<h1> Registered</h1>
+{% else %}
+
+<div class="form">
+
+    <h3>Register here</h3>
+
+    <form method="POST" action="">
+        {% csrf_token %} {{ form.as_p }}
+        <input type="submit" value="sign up">
+    </form>
+</div>
+{% endif %} {% endblock %}
